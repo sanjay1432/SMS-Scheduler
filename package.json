@@ -1,0 +1,28 @@
+{
+  "name": "sms-scheduler",
+  "version": "1.0.0",
+  "description": "sms scheduler program",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --detectOpenHandles --config ./jest.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjay1432/SMS-Scheduler.git"
+  },
+  "author": "sanjay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjay1432/SMS-Scheduler/issues"
+  },
+  "homepage": "https://github.com/sanjay1432/SMS-Scheduler#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18",
+    "node-schedule": "^2.0.0"
+  }
+}
